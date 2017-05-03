@@ -5,7 +5,7 @@
 
 //== Project Colors 
 
-$color_: hsla(245%, 91%, 74%, 1);
+$color_purple: hsla(245%, 91%, 74%, 1);
 $color_blue: hsla(198%, 100%, 71%, 1);
 $color_yellow: hsla(47%, 53%, 81%, 1);
 $color_green: hsla(86%, 39%, 70%, 1);
@@ -28,3 +28,8 @@ $screen-desktop:                  1100px !default;
 
 
 // Fonts
+
+$font-headers:			Helvetica, sans-serif;
+$font-subheaders:		Helvetica, sans-serif;
+
+$font-body:				Helvetica, sans-serif;
