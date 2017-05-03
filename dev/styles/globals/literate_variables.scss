@@ -1,28 +1,19 @@
-$bootstrap-sass-asset-helper: false !default;
 //
 // Variables
 // --------------------------------------------------
 
 
-//== Project Colors - taken from Miami Brand Redesign PDF
+//== Project Colors 
 
-
-$main-green: #005030 !default;
-$light-green: #C1CC20 !default;
-$main-orange: #D9521F !default;
-$light-orange: #F47321 !default;
-
-
-$clear-green: #99C3B9 !default;
-$clear-blue: #A4D8F5 !default;
-$clear-beige: #E8D4A2!default;
-$clear-gray: #EDECED!default;
-
-$dark-gray: #96A0AA!default;
+$color_: hsla(245%, 91%, 74%, 1);
+$color_blue: hsla(198%, 100%, 71%, 1);
+$color_yellow: hsla(47%, 53%, 81%, 1);
+$color_green: hsla(86%, 39%, 70%, 1);
+$color_gray: hsla(232%, 12%, 75%, 1);
 
 // Main white and black colors 
-$pure-white: #ffffff!default;
-$pure-black: #000000!default;
+$color_white: hsla(255%, 255%, 255%, 1);
+$color_black: hsla(0%, 0%, 20%, 1);
 
 //Breakpoints
 
@@ -36,113 +27,4 @@ $screen-tablet:                  768px !default;
 $screen-desktop:                  1100px !default;
 
 
-
-//== Iconography
-//
-//## Specify custom location and filename of the included Glyphicons icon font. Useful for those including Bootstrap via Bower.
-
-//** Load fonts from this directory.
-
-// [converter] If $bootstrap-sass-asset-helper if used, provide path relative to the assets load path.
-// [converter] This is because some asset helpers, such as Sprockets, do not work with file-relative paths.
-$icon-font-path: if($bootstrap-sass-asset-helper, "bootstrap/", "../assets/bootstrap-fonts/bootstrap/") !default;
-
-//** File name for all font files.
-$icon-font-name:          "glyphicons-halflings-regular" !default;
-//** Element ID within SVG icon file.
-$icon-font-svg-id:        "glyphicons_halflingsregular" !default;
-
-
 // Fonts
-
-// Stag Serif
-@font-face {
-	font-family: "Stag";
-	src: url("../assets/fonts/STAG/Stag-Light.otf");
-	font-style: normal;
-	font-weight: normal;
-}
-@font-face {
-	font-family: "Stag";
-	src: url("../assets/fonts/STAG/Stag-LightItalic.otf");
-	font-style: italic;
-	font-weight: normal;
-}
-@font-face {
-	font-family: "Stag";
-	src: url("../assets/fonts/STAG/Stag-Black.otf");
-	font-style: normal;
-	font-weight: bold;
-}
-@font-face {
-	font-family: "Stag";
-	src: url("../assets/fonts/STAG/Stag-BlackItalic.otf");
-	font-style: italic;
-	font-weight: bold;
-}
-
-// Stag Sans
-@font-face {
-	font-family: "Stag-Sans";
-	src: url("../assets/fonts/STAG/Stag Sans-Medium.otf");
-	font-style: normal;
-	font-weight: normal;
-}
-@font-face {
-	font-family: "Stag-Sans";
-	src: url("../assets/fonts/STAG/Stag Sans-Light Italic.otf");
-	font-style: italic;
-	font-weight: normal;
-}
-@font-face {
-	font-family: "Stag-Sans";
-	src: url("../assets/fonts/STAG/Stag Sans-Black.otf");
-	font-style: normal;
-	font-weight: bold;
-}
-@font-face {
-	font-family: "Stag-Sans";
-	src: url("../assets/fonts/STAG/Stag Sans-Black Italic.otf");
-	font-style: italic;
-	font-weight: bold;
-}
-
-// Stag Book
-@font-face {
-	font-family: "Stag-Book";
-	src: url("../assets/fonts/STAG/Stag-Book.otf");
-	font-style: normal;
-	font-weight: normal;
-}
-@font-face {
-	font-family: "Stag-Book";
-	src: url("../assets/fonts/STAG/Stag-BookItalic.otf");
-	font-style: italic;
-	font-weight: normal;
-}
-
-// proxima-nova
-// @font-face {
-//     font-family: "proxima-nova";
-//     src: url("../assets/fonts/STAG/Stag Sans-Medium.otf");
-//     font-style: normal;
-//     font-weight: normal;
-// }
-// @font-face {
-//     font-family: "proxima-nova";
-//     src: url("../assets/fonts/STAG/Stag Sans-Light Italic.otf");
-//     font-style: italic;
-//     font-weight: normal;
-// }
-// @font-face {
-//     font-family: "proxima-nova";
-//     src: url("../assets/fonts/STAG/Stag Sans-Black.otf");
-//     font-style: normal;
-//     font-weight: bold;
-// }
-// @font-face {
-//     font-family: "proxima-nova";
-//     src: url("../assets/fonts/STAG/Stag Sans-Black Italic.otf");
-//     font-style: italic;
-//     font-weight: bold;
-// }

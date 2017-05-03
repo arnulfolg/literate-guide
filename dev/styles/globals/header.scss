@@ -82,13 +82,13 @@ header
 		&.desktop-nav
 		{
 		
-			background-color: rgba($pure-white, 0.75);
-			box-shadow: 0px 0px 5px $dark-gray;
+			background-color: rgba($color_white, 0.75);
+			box-shadow: 0px 0px 5px $color_gray;
 			transition: background-color 0.5s;
 
 			&:hover, &.desktop-nav__hover
 			{
-				background-color: $pure-white;
+				background-color: $color_white;
 			}
 			// height: 65px;
 			&.programs-nav-priority ul.main-menu 
@@ -222,7 +222,7 @@ header
 							transform: translateY(-50%);
 							left: 0;
 
-							border-left: 1px solid $dark-gray;
+							border-left: 1px solid $color_gray;
 
 							
 						}
@@ -260,7 +260,7 @@ header
 
 							// &:hover 
 							// {
-							// 	border-bottom: 5px solid $main-orange;
+							// 	border-bottom: 5px solid $color_blue;
 							// 	font-weight: bold;
 							// }
 
@@ -285,7 +285,7 @@ header
 									bottom: -5px;
 									left: 50%;
 									transform: translateX(-50%);
-									border-bottom: 5px solid $main-orange;
+									border-bottom: 5px solid $color_blue;
 									font-weight: bold;
 								}
 
@@ -311,7 +311,7 @@ header
 									bottom: -5px;
 									left: 50%;
 									transform: translateX(-50%);
-									border-bottom: 5px solid $main-orange;
+									border-bottom: 5px solid $color_blue;
 									font-weight: bold;
 								}
 
@@ -327,7 +327,7 @@ header
 								display: block;
 							}
 
-							background-color: $pure-white;
+							background-color: $color_white;
 							position: absolute;
 							top: 100px;
 							// right: 0;
@@ -354,7 +354,7 @@ header
 									text-align: left;
 									padding: 10px 20px;
 									height: 60px;
-									border-top: 1px solid $dark-gray;
+									border-top: 1px solid $color_gray;
 
 									position: relative;
 
@@ -372,7 +372,7 @@ header
 
 									&:hover
 									{
-										background-color: $dark-gray;
+										background-color: $color_gray;
 									}
 
 									a 
@@ -410,9 +410,9 @@ header
 								display: block;
 							}
 
-							background-color: $pure-white;
-							border-left: 1px solid $dark-gray;
-							border-right: 1px solid $dark-gray;
+							background-color: $color_white;
+							border-left: 1px solid $color_gray;
+							border-right: 1px solid $color_gray;
 							position: absolute;
 							top: -1px;
 							width: 200px;
@@ -438,7 +438,7 @@ header
 									text-align: left;
 									padding: 10px 20px;
 									height: 60px;
-									border-top: 1px solid $dark-gray;
+									border-top: 1px solid $color_gray;
 
 
 									order: 0;
@@ -503,7 +503,7 @@ header
 			&.open-nav
 			{
 				height: 100vh;
-				background-color: $pure-white;
+				background-color: $color_white;
 				a.close-lvl-1, a.close-lvl-2
 				{
 					display: block;
@@ -550,7 +550,7 @@ header
 					height: 100px;
 
 					background-color: white;
-					box-shadow: 0px 0px 5px $dark-gray;
+					box-shadow: 0px 0px 5px $color_gray;
 
 					position: relative;
 					li.logo
@@ -585,7 +585,7 @@ header
 							height: 5px;
 							width: 35px;
 							border-radius: 10px;
-							background-color: $main-orange;
+							background-color: $color_blue;
 
 							// cursor: pointer;
 
@@ -595,7 +595,7 @@ header
 								content: "";
 								height: 5px;
 								width: 35px;
-								background-color: $main-orange;
+								background-color: $color_blue;
 								border-radius: 10px;
 
 								top: 10px;
@@ -606,7 +606,7 @@ header
 								content: "";
 								height: 5px;
 								width: 35px;
-								background-color: $main-orange;
+								background-color: $color_blue;
 								border-radius: 10px;
 
 								top: 20px;
@@ -638,7 +638,7 @@ header
 								content: "";
 								height: 5px;
 								width: 35px;
-								background-color: $main-green;
+								background-color: $color_green;
 								border-radius: 10px;
 								transform: rotate(45deg);
 
@@ -650,7 +650,7 @@ header
 								content: "";
 								height: 5px;
 								width: 35px;
-								background-color: $main-green;
+								background-color: $color_green;
 								border-radius: 10px;
 								transform: rotate(-45deg);
 
@@ -667,7 +667,7 @@ header
 					align-self: auto;
 					width: 100%;
 					display: none;
-					background-color: $pure-white;
+					background-color: $color_white;
 				}
 				div.left
 				{
@@ -692,7 +692,7 @@ header
 
 					a 
 					{
-						color: $pure-white;
+						color: $color_white;
 					}
 
 					li.link-lvl-1
@@ -710,8 +710,8 @@ header
 					top: 100px;
 					left: 100%;
 
-					background-color: $dark-gray;
-					color: lighten($dark-gray, 10%);
+					background-color: $color_gray;
+					color: lighten($color_gray, 10%);
 					font-family: 'proxima-nova', Serif;
 					text-align: center;
 					text-decoration: none;
@@ -757,7 +757,7 @@ header
 
 						font-family: 'proxima-nova', Serif;
 						font-size: 18px;
-						color: $dark-gray;
+						color: $color_gray;
 						text-transform: uppercase;
 
 						order: 0;
@@ -784,8 +784,8 @@ header
 
 						&:hover
 						{
-							background-color: $dark-gray;
-							color: $pure-white;
+							background-color: $color_gray;
+							color: $color_white;
 
 							>a:before 
 							{
@@ -846,7 +846,7 @@ header
 						{
 							div.link-lvl-2
 							{
-								color: $dark-gray;
+								color: $color_gray;
 								height: 100vh;
 
 								display: block;
@@ -867,7 +867,7 @@ header
 
 									font-family: 'proxima-nova', Serif;
 									font-size: 18px;
-									color: $dark-gray;
+									color: $color_gray;
 									text-transform: uppercase;
 
 									order: 0;
@@ -889,8 +889,8 @@ header
 
 									&:hover
 									{
-										background-color: $dark-gray;
-										color: $pure-white;
+										background-color: $color_gray;
+										color: $color_white;
 
 										>a:before 
 										{
@@ -952,8 +952,8 @@ header
 									top: 0;
 									left: 100%;
 
-									background-color: lighten($dark-gray, 15%);
-									color: lighten($dark-gray, 25%);
+									background-color: lighten($color_gray, 15%);
+									color: lighten($color_gray, 25%);
 									font-family: 'proxima-nova', Serif;
 									font-size: 14px;
 									text-align: center;
@@ -997,8 +997,8 @@ header
 
 										ul li:hover
 										{
-											background-color: lighten($dark-gray, 15%);
-											color: $clear-gray;
+											background-color: lighten($color_gray, 15%);
+											color: $color_gray;
 										}
 									}
 								}
@@ -1051,11 +1051,11 @@ nav.navbar-nav {
 // }
 
 // #bs-example-navbar-collapse-1 .navbar-right #apply {
-// 	background-color: $light-orange;
+// 	background-color: $light_blue;
 // }
 
 // #bs-example-navbar-collapse-1 .navbar-right #info {
-// 	background-color: $main-orange;
+// 	background-color: $color_blue;
 // }
 
 /*  Styles for .innerbar */
@@ -1063,7 +1063,7 @@ nav.navbar-nav {
 	height: 66px; // Igual a 4* font size + padding-top
 	padding: 10px 0;
 	width: 100%;
-	background-color: $pure-white;
+	background-color: $color_white;
 	//padding: 0;
 	border: 0;
 	box-sizing: border-box;
@@ -1181,7 +1181,7 @@ nav.navbar-nav {
 .menu-content.visible li span {
 	display: inline-block;
 	float: right;
-	color: $light-green;
+	color: $color_green;
 	vertical-align: middle;
 	width: 20%;
 	height: 49px;
