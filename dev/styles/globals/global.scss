@@ -6,7 +6,18 @@ html, body, html body
 
 h1, h2, h3, h4, h5, h6, figure
 {
+	font-family: $font-headers;
 	margin: 0;
+}
+
+h1 
+{
+	font-size: 50px;
+}
+
+h6 
+{
+	font-size: 30px;
 }
 
 a
@@ -94,3 +105,49 @@ a
 	// -webkit-background-size: cover;
 	background-size: cover;
 }
+
+.hero
+{
+	height: 500px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+	.title
+	{
+		order: 0;
+		flex: 0 1 auto;
+		align-self: center;
+
+		h1, h6 
+		{
+			text-shadow: 0 0 15px $color_gray;
+		}
+	}
+}
+
+table.table
+{
+	box-sizing: border-box;
+	th
+	{
+		background-color: $color_blue;
+		color: $color_white;
+	}
+
+	th, td
+	{
+		padding: 20px 40px;
+		font-weight: 400;
+		text-align: center;
+		border: 2px solid $color_gray;
+		box-sizing: border-box;
+	}
+
+
+}
+
