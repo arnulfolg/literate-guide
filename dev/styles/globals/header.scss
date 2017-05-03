@@ -46,6 +46,20 @@ header
 					align-self: center;
 				}
 
+				&.app-name
+				{
+					img 
+					{
+						height: 40px;
+						width: 40px;
+						margin: 10px 10px 10px 0;
+					}
+					a
+					{
+						font-weight: bold;
+					}
+				}
+
 			}
 		}
 		ul.push-left
