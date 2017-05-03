@@ -1,0 +1,26 @@
+{
+  "name": "UoM",
+  "description": "University of Miami Online - Laureate",
+  "main": "index.js",
+  "authors": [
+    "IPS"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "online",
+    "laureate",
+    "uom"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4",
+    "normalize-scss": "^3.0.3"
+  }
+}

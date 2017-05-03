@@ -1,0 +1,117 @@
+@media all and ( min-width: 320px ){
+
+	#rfi-modal{
+		padding: 0 !important;
+	}
+
+	.input-container{
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+	.input-container p{
+		width: 100%;
+		max-width: 100%;
+	}
+	.input-container input{
+		width: 100%;
+		max-width: 100%;
+	}
+
+}
+@media all and ( min-width: 480px ){}
+@media all and ( min-width: 600px ){}
+@media all and ( min-width: 840px ){
+
+	.layout-row{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.layout-row > div{
+		flex-grow: 1;
+		max-height: 100%;
+		box-sizing: border-box;
+	}
+
+	.layout-column{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.layout-column > div{
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+
+	.add-gutter > div {
+		padding-right: 10px;
+	}
+
+	.flex-50{
+		max-width: 50%;
+	}
+	.flex-100{
+		max-width: 100%;
+	}
+
+}
+@media all and ( min-width: 960px ){
+	
+	#rfi-modal .dialog-container{
+		margin-top: 15vh;
+	}
+
+}
+
+@media all and ( min-width: 1280px ){
+	
+	.layout-row{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.layout-row div{
+		flex-grow: 1;
+		max-height: 100%;
+		box-sizing: border-box;
+	}
+
+	.layout-column{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.layout-column div{
+		flex-grow: 1;
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+
+	.add-gutter > div {
+		padding-right: 10px;
+	}
+
+
+	.input-container{
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+	.input-container p{
+		width: 100%;
+		max-width: 100%;
+	}
+	.input-container input{
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.flex-50{
+		max-width: 50%;
+	}
+	.flex-100{
+		max-width: 100%;
+	}
+
+}

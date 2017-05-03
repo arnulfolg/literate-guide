@@ -1,0 +1,11 @@
+//the normlize file
+@import "../../bower_components/normalize-scss/normalize";
+
+// Global Styles
+@import "globals/literate_variables";
+@import "globals/global";
+@import "globals/header";
+@import "globals/footer";
+
+// Customs styles that may not apply to all pages
+@import "components/layout";

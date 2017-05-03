@@ -1,0 +1,37 @@
+doctype html
+// This is a harmless comment
+html(lang="en")
+	head
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta( name="viewport" content="width=device-width, initial-scale=1" )
+		meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1")
+
+
+		title 
+			| Literate Guide - 
+			block title
+				| Builder 
+
+		link(rel="icon" href="assets/favicon.png")
+		link(type="text/css" rel="stylesheet" href="css/main.css")
+
+		block styles
+
+
+body
+	form
+		//- Append the header at the beggining 
+		include header
+
+		//- A block allows the child pages to include their own markup without breaking the template in chunks 
+		// START - Page Content
+		block content
+		// END - Page Content
+
+		//- Append the footer at the end 
+		include footer
+	
+		script(type="text/javascript", src="vendor/jquery.min.js")
+
+		block scripts
+		script(type="text/javascript", src="js/app.js")
